@@ -1,27 +1,39 @@
-# KidneyCare Predictor
+# 🩺 KidneyCare Predictor
 
-KidneyCare Predictor is a Streamlit-based machine learning web application for the early detection of Chronic Kidney Disease (CKD). It integrates multiple ML models to provide an interpretable, scalable solution for clinical decision support.
+**KidneyCare Predictor** is a Streamlit-based machine learning web application for the **early detection of Chronic Kidney Disease (CKD)**. It integrates multiple ML models to provide an interpretable, scalable solution for clinical decision support.
 
-## Abstract
+---
 
-Chronic Kidney Disease (CKD) is a growing global health challenge, often diagnosed at advanced stages due to the lack of early detection tools. Late-stage diagnosis leads to severe complications, including kidney failure, cardiovascular diseases, and increased healthcare burdens. This project proposes "KidneyCare Predictor: AI-Driven Early Detection of Chronic Kidney Disease Using Clinical and Laboratory Data", an intelligent predictive model designed to assist in early diagnosis and intervention. The system leverages machine learning techniques to analyze structured patient data, including blood pressure, creatinine levels, glucose concentration, and other clinical parameters. Using supervised learning models such as Decision Trees, Random Forest, and Logistic Regression, the system predicts CKD likelihood with high accuracy. Data augmentation and feature engineering techniques are applied to improve model robustness and reduce biases.
+## 📌 Abstract
 
-## Features
+Chronic Kidney Disease (CKD) is a growing global health challenge, often diagnosed at advanced stages due to the lack of early detection tools. Late-stage diagnosis leads to severe complications, including kidney failure, cardiovascular diseases, and increased healthcare burdens.
 
-- Inputs based on clinical and laboratory data  
-- Integrated ML models: Logistic Regression, Decision Tree, Random Forest  
-- Real-time model performance metrics (Accuracy, Precision, Recall, F1-score)  
-- Visualizations: Correlation heatmaps, feature importance, EDA  
-- Streamlit UI for interactive prediction and analysis  
+This project proposes **"KidneyCare Predictor: AI-Driven Early Detection of Chronic Kidney Disease Using Clinical and Laboratory Data"**, an intelligent predictive model designed to assist in early diagnosis and intervention.
 
-## Tech Stack
+The system leverages machine learning techniques to analyze structured patient data, including blood pressure, creatinine levels, glucose concentration, and other clinical parameters. Using supervised learning models such as **Decision Trees**, **Random Forest**, and **Logistic Regression**, the system predicts CKD likelihood with high accuracy. Data augmentation and feature engineering techniques are applied to improve model robustness and reduce biases.
 
-- Frontend: Streamlit  
-- Backend: Python  
-- ML Libraries: Scikit-learn, Pandas, NumPy, Seaborn, Matplotlib  
-- Deployment: Streamlit Cloud / Localhost  
+---
 
-## Project Structure
+## 🧠 Features
+
+- 📋 Inputs based on clinical and laboratory data
+- ⚙️ Integrated ML models: Logistic Regression, Decision Tree, Random Forest
+- 📊 Real-time model performance metrics (Accuracy, Precision, Recall, F1-score)
+- 📈 Visualizations: Correlation heatmaps, feature importance, EDA
+- 🧵 Streamlit UI for interactive prediction and analysis
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend**: Streamlit
+- **Backend**: Python
+- **ML Libraries**: Scikit-learn, Pandas, NumPy, Seaborn, Matplotlib
+- **Deployment**: Streamlit Cloud / Localhost
+
+---
+
+## 📁 Project Structure
 
 KidneyCare-Predictor/  
 ├── app.py                      - Streamlit application  
